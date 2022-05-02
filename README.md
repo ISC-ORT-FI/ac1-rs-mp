@@ -27,7 +27,7 @@ Team Ricardo Sánchez- Martín Pacheco
 # Comentarios y errores corregidos:
 
 * Faltaba valor default para variable perfil
-** También se modificó valor en archivo .tfvars
+    * También se modificó valor en archivo .tfvars
 * Había que modificar clave ssh para que coincidiera con la almacenada localmente
 * En el archivo de instancia se incorporó el subnet ID
 * Al Security Group del Load Balancer se le corrigió el puerto. Tenía el 88, se modificó por el 80.
