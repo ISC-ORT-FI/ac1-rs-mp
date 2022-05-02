@@ -1,4 +1,5 @@
 variable "perfil" {
+  default = "ric"
 }
 
 variable "region" {

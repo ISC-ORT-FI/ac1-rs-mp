@@ -22,3 +22,16 @@ El resultado debe ser la web de "Caffé" visualizada desde la url del LoadBalanc
 --- 
 Team Ricardo Sánchez- Martín Pacheco
 ---
+
+
+# Comentarios y errores corregidos:
+
+* Faltaba valor default para variable perfil
+** También se modificó valor en archivo .tfvars
+* Había que modificar clave ssh para que coincidiera con la almacenada localmente
+* En el archivo de instancia se incorporó el subnet ID
+* Al Security Group del Load Balancer se le corrigió el puerto. Tenía el 88, se modificó por el 80.
+* Se modificó el CIDR de la Route Table para que pudiera salir a cualquier dirección en internet (0.0.0.0/16)
+
+
+* La creación de los recursos lleva tiempo, si se interrumpe el proceso de creación puede que los mismos no queden reflejados en el archivo de estado, lo que puede ocurrir que al hacer un "terraform destroy" no se eliminen dichos recursos.
