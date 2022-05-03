@@ -34,4 +34,4 @@ Team Ricardo Sánchez- Martín Pacheco
 * Se modificó el CIDR de la Route Table para que pudiera salir a cualquier dirección en internet (0.0.0.0/0)
 
 
-* La creación de los recursos lleva tiempo, si se interrumpe el proceso de creación puede que los mismos no queden reflejados en el archivo de estado, lo que puede ocurrir que al hacer un "terraform destroy" no se eliminen dichos recursos.
+* La creación de los recursos lleva tiempo, si se interrumpe el proceso de creación puede que los mismos no queden reflejados en el archivo de estado, lo que puede ocasionar que al hacer un "terraform destroy" no se eliminen dichos recursos.
